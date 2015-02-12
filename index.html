@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello world</title>
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #000;
+            color: #fff;
+        }
+        .content {
+            height: 100%;
+            text-align: center;
+        }
+        .content:after{
+            display:inline-block;
+            width:0;
+            height:100%;
+            vertical-align:middle;
+            content:'';
+        }
+        .content p{
+            font-family: Helvetica, Arial, "华文细黑", "微软雅黑";
+            font-size: 5rem;
+            display:inline-block;
+            vertical-align:middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>
+            console.log('hello world');
+        </p> 
+    </div>
+</body>
+</html>
